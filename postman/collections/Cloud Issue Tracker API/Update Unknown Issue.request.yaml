@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/api/issues/does-not-exist/status"
+method: PATCH
+body:
+  type: json
+  content: "{ \r\n\"status\": \"Resolved\" \r\n} "
+order: 4496851175427005

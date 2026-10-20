@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/api/fake-url"
+method: PATCH
+body:
+  type: json
+  content: ""
+order: 4497429246488734

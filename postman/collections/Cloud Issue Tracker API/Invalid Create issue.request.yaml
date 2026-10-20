@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{baseUrl}}/api/issues"
+method: POST
+body:
+  type: json
+  content: "{ \r
+
+    \"title\": \"\", \r
+
+    \"description\": \"Missing valid title\", \r
+
+    \"priority\": \"Urgent\" \r
+
+    } "
+order: 4380853015385278
