@@ -1,4 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/issues "
-method: GET
-order: 4503559743935172

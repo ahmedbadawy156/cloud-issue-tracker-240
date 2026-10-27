@@ -1,7 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/issues/<issue-id>/status"
-method: PATCH
-body:
-  type: json
-  content: "{ \r\n\"status\": \"Deleted\" \r\n}"
-order: 4501391781129376

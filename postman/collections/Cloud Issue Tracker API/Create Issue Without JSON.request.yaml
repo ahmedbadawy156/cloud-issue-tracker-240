@@ -1,7 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/issues"
-method: POST
-body:
-  type: text
-  content: title=Printer.
-order: 4503141659667103

@@ -1,7 +1,0 @@
-$kind: http-request
-url: "{{baseUrl}}/api/issues/ISS-101/status"
-method: PATCH
-body:
-  type: json
-  content: "{ \r\n\"status\": \"Resolved\" \r\n}"
-order: 4220673560525395
